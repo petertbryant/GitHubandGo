@@ -1,12 +1,13 @@
 GitHub and Go
 ========================================================
-author: Kevin Brannan, Dan Sobota and Peter Bryant
+author: Peter Bryant, Dan Sobota and Kevin Brannan
 date: 8/13/2014
 
 Our Workflow
 ========================================================
 left: 110%
 ![plot of chunk unnamed-chunk-1](GitHubandGo_Presentation-figure/unnamed-chunk-1.png) 
+
 
 How would multiple people use and improve these scripts?
 
@@ -42,9 +43,10 @@ Most of you are probably familiar with this envrionment.
 
 Example Application
 =======================================================
+KMB - I suggest providing a ones line description of each item below and then select the simplest one athat you know the most about and use that as the example
 
 Options to include here:
-- Julia's PSP work
+- Julia's PSP work 
 - This presentation
 - My Integrated Report work 
 
@@ -59,4 +61,9 @@ Getting Started in Our Group
   
 
 =======================================================
-# **Now Git Going!**
+# **Now Git Going!** 
+## (Peter's pun)
+# **Git 'ere done!**
+## (Kevin's pun)
+# **????**
+## (Dan's pun)
