@@ -1,0 +1,33 @@
+---
+title: 'GitHub Setup Instructions'
+author: 'Peter Bryant'
+date: 'Wednesday, August 13, 2014'
+output: word_document
+---
+
+## Set-up Git and GitHub in R-Studio
+
+1.  Download GitHub for Windows from here. (This program handles some of the set up steps that make it easier although we won't actually use it to manage our repositories.)
+2.	Create a GitHub account. 
+3. When you start GitHub for Windows you'll sign in with your username and password. You'll also enter your e-mail.
+4.	Now go to R-Studio and select Tools -> Global Options -> Git/SVN.
+5.	Check the box labeled 'Enable version control interface for RStudio projects'
+6.	To tell RStudio where Git is click Browse in 'Git executable' and point to C:/Users/YOUR_USERNAME/AppData/Local/GitHub/PortableGit_aBUNCHofRandomCharacters/bin/git.exe (NOTE: In order to see AppData you'll need to make sure the WindowsExplorer settings are set to View Hidden Files and Folders)
+7.	Also make sure the box is checked that says 'Use Git Bash as shell for Git projects'
+DOUBLE CHECK THESE STEPS:
+8.	Under SSH RSA Key: Click 'View public key' and copy it.
+9.	Now go to github.com/YOUR_GITHUB_USERNAME and select Account Settings (The wrench and screwdriver icon in the top right of the page). Click SSH Keys from the menu on the left. Add SSH Key and paste in the key you just copied. 
+
+## Clone a repository
+1.	Next go to https://github.com/petertbryant/ReadandClean and on the right side of the page under clone URL click SSH and copy the address.
+2.	Now go to RStudio -> New Project -> Version Control -> Git -> Paste the SSH address you just copied from the repository under the Repository URL. You can also specify the location where you want your local copy to be. Then click Create Project.
+3.	Now you have a local copy of the repository to work from.
+4.	Now in RStudio you'll open the .Rproj file in the repository directory /ReadandClean/ReadandClean.Rproj.
+5.	This will make the Git tab available in RStudio. As you edit documents in the repository they will show up as being modified in the tab window.
+
+## Working with Git and GitHub in RStudio
+1.	To stage them click the 'Staged' box and you'll see the Status update.
+2.	Click 'Diff' in the top left of the tab and a new window will open that will allow you to see the changes.
+3.	Fill in a description you want associated with the commit and then Click 'Commit'. This will log the changes you have made to your local repository.
+4.	When you are ready to share these changes or want to store your copy on the internet. First click 'Pull' to make sure any other changes people have made will be merged into your copy.
+5.	Then, click 'Push' which will put your merged copy onto the remote location
