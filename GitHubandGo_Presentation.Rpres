@@ -1,0 +1,83 @@
+GitHub and Go
+========================================================
+author: Kevin Brannan, Dan Sobota and Peter Bryant
+date: 8/13/2014
+
+Our Workflow
+========================================================
+left: 110%
+```{r, echo = FALSE}
+require(diagram)
+par(mar = c(1, 1, 1, 1))
+ openplotmat()
+ elpos <- coordinates (c(1, 1, 1, 1))
+ fromto <- matrix(ncol = 2, byrow = TRUE,
+                   data = c(1, 2, 2, 3, 3, 4))
+ nr <- nrow(fromto)
+ arrpos <- matrix(ncol = 2, nrow = nr)
+ for (i in 1:nr)
+  arrpos[i, ] <- straightarrow (to = elpos[fromto[i, 2], ],
+                                 from = elpos[fromto[i, 1], ],
+                                 lwd = 2, arr.pos = 0.8, arr.length = 0.7)
+textellipse(elpos[1,], 0.12, lab = "Data Source", box.col = "green",
+              shadow.col = "darkgreen", shadow.size = 0.005, cex = 1.5)
+textrect (elpos[2,], 0.22, 0.04,lab = "Query Data (Script)", box.col = "lightblue",
+            shadow.col = "darkblue", shadow.size = 0.005, cex = 1.5)
+textrect (elpos[3,], 0.24, 0.04,lab = "Analyze Data (Script)", box.col = "lightblue",
+            shadow.col = "darkblue", shadow.size = 0.005, cex = 1.5)
+textrect (elpos[4,], 0.26, 0.04,lab = "Publish Results (Script)", box.col = "lightblue",
+          shadow.col = "darkblue", shadow.size = 0.005, cex = 1.5)
+```
+
+How would multiple people use and improve these scripts?
+
+***
+
+GitHub
+========================================================
+
+- GitHub is the online collaboration tool
+  ![GitHub screenshot](GitHub.PNG)
+
+Git
+========================================================
+
+- Git is the version control software
+  ![RStudio diff screenshot](RStudioDiff.PNG)
+
+Version Control
+========================================================
+
+### Benefits
+- Track changes
+- Retrievable
+- Workflow organization
+- Collaboration opportunities
+
+R and RStudio
+========================================================
+
+Most of you are probably familiar with this envrionment.
+
+![RStudio screenshot](RStudio.PNG)
+
+Example Application
+=======================================================
+
+Options to include here:
+- Julia's PSP work
+- This presentation
+- My Integrated Report work 
+
+Getting Started in Our Group
+=======================================================
+
+- Provide steps to set up GitHub and RStudio to group
+- Peter and Dan will provide help
+  - They will do this during the initial stage of our use of GitHub
+  - They will only help with use and setup problems with using GiHub through RStudio
+  - We will all be able to help each other as our proficiency with GitHub increases
+  
+
+=======================================================
+# **Now Git Going!**
