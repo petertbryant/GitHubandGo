@@ -1,13 +1,12 @@
 GitHub and Go
 ========================================================
 author: Peter Bryant, Dan Sobota and Kevin Brannan
-date: 8/13/2014
+date: 9/2/2014
 
 Our Workflow
 ========================================================
 left: 110%
 ![plot of chunk unnamed-chunk-1](GitHubandGo_Presentation-figure/unnamed-chunk-1.png) 
-
 
 How would multiple people use and improve these scripts?
 
@@ -33,11 +32,12 @@ Version Control
 - Retrievable
 - Workflow organization
 - Collaboration opportunities
+- Citeable (GitHub is starting to issue DOIs)
 
 R and RStudio
 ========================================================
 
-Most of you are probably familiar with this envrionment.
+Many of you are probably familiar with R & RStudio.
 
 ![RStudio screenshot](RStudio.PNG)
 
@@ -48,7 +48,13 @@ KMB - I suggest providing a ones line description of each item below and then se
 Options to include here:
 - Julia's PSP work 
 - This presentation
-- My Integrated Report work 
+- My Integrated Report work
+- Dan's TMDL scripts
+
+TMDL scripts
+=======================================================
+
+
 
 Getting Started in Our Group
 =======================================================
@@ -65,5 +71,5 @@ Getting Started in Our Group
 ## (Peter's pun)
 # **Git 'ere done!**
 ## (Kevin's pun)
-# **????**
+# **Git confidence (but not Hubris)!**
 ## (Dan's pun)

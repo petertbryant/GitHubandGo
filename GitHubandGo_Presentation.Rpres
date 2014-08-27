@@ -1,7 +1,7 @@
 GitHub and Go
 ========================================================
 author: Peter Bryant, Dan Sobota and Kevin Brannan
-date: 8/13/2014
+date: 9/2/2014
 
 Our Workflow
 ========================================================
@@ -64,7 +64,7 @@ Version Control
 R and RStudio
 ========================================================
 
-Most of you are probably familiar with this envrionment.
+Many of you are probably familiar with R & RStudio.
 
 ![RStudio screenshot](RStudio.PNG)
 
@@ -76,7 +76,12 @@ Options to include here:
 - Julia's PSP work 
 - This presentation
 - My Integrated Report work
-- Dan's Midcoast DO work
+- Dan's TMDL scripts
+
+TMDL scripts
+=======================================================
+
+
 
 Getting Started in Our Group
 =======================================================
