@@ -7,24 +7,25 @@ output: word_document
 
 ## Set up GitHub for Windows
 
-1.  Download GitHub for Windows from [here](https://github.com/). (This program handles some of the set up steps that make it easier although we won't actually use it to manage our repositories.)
+1.  Download GitHub for Windows from [here](https://github.com/). This program handles some of the set up steps that make it easier although we won't actually use it to manage our repositories.
 2.	Create a GitHub account. 
 3. When you start GitHub for Windows you'll sign in with your username and password. You'll also enter your e-mail.
 
 ## Set up Git for Windows
-1.  You need to download and set up Git for Windows (separate from GitHub) too.  [Here](http://git-scm.com/) is the link for the program.
-2.  In the Windows Start Up Menu, click on All Programs->Git->Git Bash.
-3.  A window should open with a '$' as a command prompt.
-4.  Type the following (hitting enter after each line):
-        git config -global user.name "Your GitHub account name"
-        git config -global user.email "Your_email@something.com"
+1. You need to download and set up Git for Windows too (separate from GitHub).  [Here](http://git-scm.com/) is the link for the program.
+2. In the Windows Start Up Menu, click on All Programs->Git->Git Bash.
+3. A window should open with a '$' as a command prompt.
+4. Type the following (hitting enter after each line):
+       git config -global user.name "Your GitHub account name"
+       git config -global user.email "Your_email"
 
 ## Set up Git and GitHub in R-Studio
 1.	Now go to R-Studio and select Tools -> Global Options -> Git/SVN.
 2.	Check the box labeled 'Enable version control interface for RStudio projects'
-3.	To tell RStudio where Git is click Browse in 'Git executable' and point to C:\Program Files\Git\bin\git.exe (NOTE: You might have it loaded under Program Files (x86))
+3.	To tell RStudio where Git is click Browse in 'Git executable' and point to C:\Program\Files\Git\bin\git.exe (NOTE: You might have it loaded under Program Files (x86))
 4.	Also make sure the box is checked that says 'Use Git Bash as shell for Git projects'
-DOUBLE CHECK THESE STEPS:
+
+## DOUBLE CHECK THESE STEPS:
 5.	Under SSH RSA Key: Click 'View public key' and copy it.
 6.	Now go to github.com/YOUR_GITHUB_USERNAME and select Account Settings (The wrench and screwdriver icon in the top right of the page). Click SSH Keys from the menu on the left. Add SSH Key and paste in the key you just copied. 
 
