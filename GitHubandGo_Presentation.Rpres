@@ -80,14 +80,18 @@ Options to include here:
 
 TMDL scripts
 =======================================================
+- Scripts for individual TMDL projects organized by folder
 
+![TMDL-script screenshot](TMDL-Scripts.jpg)
 
+- Data and other large files reside in folders outside the R project
 
 Getting Started in Our Group
 =======================================================
 
 - Provide steps to set up GitHub and RStudio to group
 - Peter and Dan will provide help
+  - Have developed a start-up word document
   - They will do this during the initial stage of our use of GitHub
   - They will only help with use and setup problems with using GiHub through RStudio
   - We will all be able to help each other as our proficiency with GitHub increases
@@ -96,7 +100,7 @@ Getting Started in Our Group
 =======================================================
 # **Now Git Going!** 
 ## (Peter's pun)
-# **Git 'ere done!**
+# **Git 'R done!**
 ## (Kevin's pun)
-# **Git confidence (but not Hubris)!**
+# **Git confident (but not Hubris)!**
 ## (Dan's pun)
