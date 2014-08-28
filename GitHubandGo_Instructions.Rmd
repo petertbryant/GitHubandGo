@@ -15,9 +15,10 @@ output: word_document
 1. You need to download and set up Git for Windows too (separate from GitHub).  [Here](http://git-scm.com/) is the link for the program.
 2. In the Windows Start Up Menu, click on All Programs->Git->Git Bash.
 3. A window should open with a '$' as a command prompt.
-4. Type the following (hitting enter after each line):
-       git config -global user.name "Your GitHub account name"
-       git config -global user.email "Your_email"
+4. Type the following (hitting enter after each line):  
+   git config -global user.name "Your GitHub account name"  
+   git config -global user.email "Your_email"
+       
 
 ## Set up Git and GitHub in R-Studio
 1.	Now go to R-Studio and select Tools -> Global Options -> Git/SVN.
