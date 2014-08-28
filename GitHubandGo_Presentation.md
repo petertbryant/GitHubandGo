@@ -41,13 +41,24 @@ Many of you are probably familiar with R & RStudio.
 
 ![RStudio screenshot](RStudio.PNG)
 
-Example Application
+Example Applications
 =======================================================
 
-- Julia's PSP work 
-- This presentation
-- My Integrated Report work
-- Dan's basin-specific scripts
+- **Julia's PSP work**
+  - R scripts to run aquatic life ratio calculations and per basin per station plots
+- **This presentation**
+  - Created using markdown files and contributed to by Dan, Kevin and I
+- **My Integrated Report work**
+  - R and Python scripts for data query, cleaning, analysis and database updates
+- **Dan's TMDL scripts**
+  - R scripts for individual TMDL projects
+  
+  
+Integrated Report Work
+=======================================================
+- Shared repository (repo) model  
+
+![plot of chunk unnamed-chunk-2](GitHubandGo_Presentation-figure/unnamed-chunk-2.png) 
 
 TMDL scripts
 =======================================================
@@ -67,6 +78,12 @@ Getting Started in Our Group
   - They will only help with use and setup problems with using GiHub through RStudio
   - We will all be able to help each other as our proficiency with GitHub increases
   
+Additional reading
+=======================================================
+
+- [Git Book](http://git-scm.com/book)
+- [Basic collaboration model description](https://help.github.com/articles/using-pull-requests/#a-quick-note-on-collaborative-development-models)
+
 =======================================================
 # **Now Git Going!** 
 ## (Peter's pun)
