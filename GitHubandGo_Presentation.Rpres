@@ -70,19 +70,17 @@ Many of you are probably familiar with R & RStudio.
 
 Example Application
 =======================================================
-KMB - I suggest providing a ones line description of each item below and then select the simplest one athat you know the most about and use that as the example
 
-Options to include here:
 - Julia's PSP work 
 - This presentation
 - My Integrated Report work
-- Dan's TMDL scripts
+- Dan's basin-specific scripts
 
 TMDL scripts
 =======================================================
 - Scripts for individual TMDL projects organized by folder
 
-![TMDL-script screenshot](TMDL-Scripts.jpg)
+![TMDL-script screenshot](TMDL_scripts.png)
 
 - Data and other large files reside in folders outside the R project
 
@@ -96,11 +94,10 @@ Getting Started in Our Group
   - They will only help with use and setup problems with using GiHub through RStudio
   - We will all be able to help each other as our proficiency with GitHub increases
   
-
 =======================================================
 # **Now Git Going!** 
 ## (Peter's pun)
-# **Git 'R done!**
+# **Git '![Rlogo](Rlogo.jpg) done!**
 ## (Kevin's pun)
 # **Git confident (but not Hubris)!**
 ## (Dan's pun)
