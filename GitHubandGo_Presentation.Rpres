@@ -68,15 +68,49 @@ Many of you are probably familiar with R & RStudio.
 
 ![RStudio screenshot](RStudio.PNG)
 
-Example Application
+Example Applications
 =======================================================
-KMB - I suggest providing a ones line description of each item below and then select the simplest one athat you know the most about and use that as the example
 
-Options to include here:
-- Julia's PSP work 
-- This presentation
-- My Integrated Report work
-- Dan's TMDL scripts
+- **Julia's PSP work**
+  - R scripts to run aquatic life ratio calculations and per basin per station plots
+- **This presentation**
+  - Created using markdown files and contributed to by Dan, Kevin and I
+- **My Integrated Report work**
+  - R and Python scripts for data query, cleaning, analysis and database updates
+- **Dan's TMDL scripts**
+  - R scripts for individual TMDL projects
+  
+  
+Integrated Report Work
+=======================================================
+- Shared repository (repo) model  
+
+```{r, echo = FALSE}
+require(diagram)
+
+par(mar = c(0.1, 0.1, 0.1, 0.1))
+ openplotmat()
+ elpos <- coordinates (c(1, 2, 2))
+ fromto <- matrix(ncol = 2, byrow = TRUE,
+                   data = c(1, 2, 1, 3))
+ nr <- nrow(fromto)
+ arrpos <- matrix(ncol = 2, nrow = nr)
+ for (i in 1:nr) {
+  arrpos[i, ] <- straightarrow (to = elpos[fromto[i, 2], ],
+                                 from = elpos[fromto[i, 1], ],
+                                 lwd = 2, arr.pos = 0.7, arr.length = 0.7)
+  arrpos[i, ] <- straightarrow (to = elpos[fromto[i, 1], ],
+                                 from = elpos[fromto[i, 2], ],
+                                 lwd = 2, arr.pos = 0.5, arr.length = 0.7)
+  }
+textellipse(elpos[1,], 0.12, lab = "GitHub repo", box.col = "green",
+              shadow.col = "darkgreen", shadow.size = 0.005, cex = 1.5)
+textrect (elpos[2,], 0.22, 0.04,lab = "My local repo", box.col = "lightblue",
+            shadow.col = "darkblue", shadow.size = 0.005, cex = 1.5)
+textrect (elpos[3,], 0.24, 0.04,lab = "Mike's local repo", box.col = "lightblue",
+            shadow.col = "darkblue", shadow.size = 0.005, cex = 1.5)
+```
+
 
 TMDL scripts
 =======================================================
@@ -96,6 +130,11 @@ Getting Started in Our Group
   - They will only help with use and setup problems with using GiHub through RStudio
   - We will all be able to help each other as our proficiency with GitHub increases
   
+Additional reading
+=======================================================
+
+- [Git Book](http://git-scm.com/book)
+- [Basic collaboration model description](https://help.github.com/articles/using-pull-requests/#a-quick-note-on-collaborative-development-models)
 
 =======================================================
 # **Now Git Going!** 
