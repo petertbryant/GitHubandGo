@@ -1,7 +1,7 @@
 GitHub and Go
 ========================================================
-author: Peter Bryant, Dan Sobota and Kevin Brannan
-date: 9/2/2014
+Peter Bryant, Dan Sobota and Kevin B![Rlogo](Rlogo.jpg)annan  
+9/2/2014
 
 Our Workflow
 ========================================================
@@ -47,8 +47,8 @@ Example Applications
 - **Julia's PSP work**
   - R scripts to run aquatic life ratio calculations and per basin per station plots
 - **This presentation**
-  - Created using markdown files and contributed to by Dan, Kevin and I
-- **My Integrated Report work**
+  - Created using markdown files and contributed to by Dan, Kevin and Peter
+- **Peter's Integrated Report work**
   - R and Python scripts for data query, cleaning, analysis and database updates
 - **Dan's TMDL scripts**
   - R scripts for individual TMDL projects
